@@ -1,0 +1,197 @@
+ul{
+    list-style-type: none;
+}
+body{
+   background-image: url("../imagens/fundo.jpg");
+    width: 100%;
+    height: 100%;
+}
+#divMenu{
+    background-color: rgba(255, 255, 255, 0.88);
+}
+#page{
+    display: none;
+    width: 100%;
+    height: 100%;
+
+}
+#imgsHome{
+    margin-top: 75px;
+}
+img{
+    width: 40px;
+    height: 40px;
+}
+
+nav{
+background-color: #000000;
+width: 100%px;
+height: 60px;
+}
+#navUl{
+    float: right;
+    list-style-type: none;
+    width: 500px;
+    height: 50px;
+}
+.navLi{
+    font-family: cardapiozinho;
+    border-bottom: 3px solid #FFFFFF;
+    font-size: 180%;
+    cursor: pointer;
+    float: left;
+    margin-right: 20px; 
+    color: white;
+}
+.navLi:hover{
+ 
+    border-bottom: 3px solid #FF0019;
+    color: rgba(255, 255, 255, 0.95);
+   
+}
+@font-face{
+    font-family: bonitinha;
+    src: url("../fonts/fonte.ttf");
+}
+@font-face{
+    font-family: cardapiozinho;
+    src: url("../fonts/ShadedLarch.ttf");
+}
+@font-face{
+    font-family: nsei;
+    src: url("../fonts/Philosopher 2.ttf");
+}
+@font-face{
+    font-family: tabela;
+    src: url("../fonts/alexandra.ttf");
+}
+.HCIC{
+    font-family: cardapiozinho; 
+}
+#inicioH1{
+    background-color:#ffffffb3;
+    font-family:  bonitinha; 
+    color: #172C1B;
+    font-size: 250%;
+}#cardapioH1{
+    font-family:  cardapiozinho; 
+    color: #522b32;
+    font-size: 250%;
+}
+#tableDiv{
+    border: 1px dashed black;
+    width: 100%;
+    height: 100%;
+}
+#tableDiv{
+    margin-bottom: 50px; 
+    width: 90%;
+    display: none;
+   color: #000000;
+   background-image: url(../imagens/fundoNav.jpg); 
+}
+#informacoes{
+    
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0);
+    display: none;
+   }
+   iframe{
+    width:600; height:450;  
+   }
+#pHorario{
+    font-size: 135%;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background: rgba(221, 221, 221, 0.98);
+    color: #000000;
+}
+footer>p{
+    float: left;
+  margin: 8px 0px; 
+}
+
+footer>#ulFooter{
+    width: 140px;
+    float: right;
+    padding: 0px;
+    margin: 0px;
+}
+footer>ul>li{
+    width: 40px;
+    height: 40px;
+   margin-right: 6px; 
+   float: right;
+}
+footer>ul>li>a>img{
+    width: 40px;
+    height: 40px;
+    float: right;
+   cursor: pointer;
+   }
+   #horario{
+       display: none;
+   }
+   #seta{
+       width: 20px;
+       height: 20px;
+       cursor: pointer;
+   }
+   tr{
+       border-bottom: 1px solid black; 
+   }
+   h3{
+       margin: 20px 20px;
+   }
+   #contatos{
+       display: none;
+       margin-bottom: 500px;
+   }
+   #localizacaoP{
+       color: #1B581B; 
+       font-family: cardapiozinho;
+       font-size: 50px;
+       margin-top: 150px
+   }
+#ulDrop{
+   background-color: #f9c1cb;
+   width: 200px;
+} 
+.pSpan{
+    background-color: blanchedalmond;
+}
+@media screen and (max-width: 600px){
+    
+nav{
+    background-color: #000000;
+    width: 800%px;
+    height: 60px;
+    }
+    #navUl{
+        float: right;
+        list-style-type: none;
+        width: 100%;
+        height: 50px;
+    }
+    .navLi{
+        font-family: cardapiozinho;
+        border-bottom: 3px solid #FFFFFF;
+        font-size: 140%;
+        cursor: pointer;
+        float: left;
+        margin-right: 20px; 
+        color: white;
+    }
+    td{
+        font-size: 80%;
+    }
+    h3{
+        font-size: 95%;
+    }
+   iframe{
+    width: 135%;
+
+   }
+}

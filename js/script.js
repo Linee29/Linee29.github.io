@@ -1,0 +1,40 @@
+$(document).ready(function(){
+    $("#cardapioNav").click(function(){
+     $("#tableDiv").show();
+     $("#informacoes").hide();
+     $("#horario").hide();
+     $("#contatos").hide();
+     $("#page").show()
+     $("#imgsHome").hide()
+    });
+    $("#homeNav").click(function(){
+    $("#tableDiv").hide();
+    $("#informacoes").hide();
+    $("#horario").hide();
+    $("#contatos").hide();
+    $("#page").hide();
+    $("#imgsHome").show();
+   
+
+});
+$("#informacoesNav").click(function(){
+    $("#tableDiv").hide();
+    $("#informacoes").show();
+    $("#horario").hide();
+    $("#contatos").hide();
+    $("#page").show()
+    $("#imgsHome").hide()
+});
+
+   $("#contatosNav").click(function(){
+    $("#tableDiv").hide();
+    $("#informacoes").hide();
+    $("#horario").hide();
+    $("#contatos").show();
+    $("#page").show()
+    $("#imgsHome").hide()
+   });
+   $("#imgsHome").click(function(){
+    $("#contatos").show();
+   });
+   });
